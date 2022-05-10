@@ -75,7 +75,7 @@ export const deleteTicket = async (req, res) => {
     creator,
     empid,
     ticket_desc,
-    DeletedAt: moment().format("MMMM Do YYYY, h:mm:ss a"),
+    DeletedAt: moment().toISOString(),
     _id: _id,
   };
 
