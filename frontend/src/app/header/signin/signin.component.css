@@ -1,0 +1,39 @@
+.container-fluid {
+    height: 90vh;
+    overflow: hidden;
+   
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(11, 11, 11, 0.52), 
+    rgba(25, 24, 24, 0.73)),url('../../../assets/images/back.jpg');
+    background-size: cover;
+}
+.f{
+    font-style: initial;
+}
+h2 {
+    font-weight: bold;
+    text-align: center;
+    font-style: oblique;
+}
+
+form {
+    height: 80vh;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+form .form-control {
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 15px;
+    background-color: #00ADB5;
+    color: #fff;
+    
+}
+.btn:hover {background-color: #3e8e41};
